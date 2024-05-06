@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +8,10 @@ body {
 header {
     background-color: #b61472;
     color: #fff;
-    padding: 20px;
+    padding: 20px;   
+    
 }
+
 
 nav ul {
     list-style-type: none;
@@ -22,6 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: inline;
     color: #fff;
     text-decoration: none;
 }
@@ -34,12 +37,33 @@ h2 {
     color: #333;
 }
 
+
+#servicios h2, p{
+    text-align: center;
+}
+
+
+#servicios ul, li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-decoration:wavy; 
+}
+
+#equipo{
+    text-align: center;
+}
+
+
 /* Estilos específicos */
+
 #abogado img {
+    text-align: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
+    
 }
 
 #testimonios .testimonial {
@@ -47,6 +71,7 @@ h2 {
     padding: 10px;
     margin-bottom: 10px;
 }
+
 
 footer {
     background-color: #b61472;
