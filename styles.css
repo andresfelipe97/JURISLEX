@@ -2,16 +2,23 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    background-color: rgb(255, 251, 251);
 }
 
 header {
-    background-color: #b61472;
-    color: #fff;
-    padding: 20px;   
+    background-color: #880752;
+    color: #ffffff;
+    padding: 20px;
     
 }
 
+
+.lista{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
 
 nav ul {
     list-style-type: none;
@@ -34,7 +41,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #000000;
 }
 
 
@@ -54,15 +61,29 @@ h2 {
     text-align: center;
 }
 
+#testimonios{
+    text-align: center;
+}
+
+#contacto{
+    text-align: center;
+}
+
+#contacto, h2, p{
+
+    text-align: center;
+}
+
 
 /* Estilos específicos */
 
 #abogado img {
     text-align: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 50%;
+    height: 50%;
+    
+    border-radius: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -79,3 +100,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
